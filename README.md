@@ -1,2 +1,2 @@
 # SUSCovidVacDataDF
- Exploratory Anali
+ Exploratory Analisys of covid vac data from DF-Brazil
