@@ -1,0 +1,44 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[TB_Estado] (Table)
+     Create
+       [dbo].[Rel_Obitos] (Table)
+       [dbo].[Rel_Recuperados] (Table)
+       [dbo].[TB_Acompanhamento] (Table)
+       [dbo].[TB_Regiao_Saude] (Table)
+       [dbo].[TB_Rel_Casos] (Table)
+       [dbo].[FK_TB_Obitos_TB_Estado] (Foreign Key)
+       [dbo].[FK_TB_Obitos_TB_Munincipio] (Foreign Key)
+       [dbo].[FK_TB_Obitos_TB_Regiao] (Foreign Key)
+       [dbo].[FK_TB_Obitos_TB_Regiao_Saude] (Foreign Key)
+       [dbo].[FK_TB_Recuperados_TB_Estado] (Foreign Key)
+       [dbo].[FK_TB_Recuperados_TB_Munincipio] (Foreign Key)
+       [dbo].[FK_TB_Recuperados_TB_Regiao] (Foreign Key)
+       [dbo].[FK_TB_Recuperados_TB_Regiao_Saude] (Foreign Key)
+       [dbo].[FK_TB_Acompanhamento_TB_Estado] (Foreign Key)
+       [dbo].[FK_TB_Acompanhamento_TB_Munincipio] (Foreign Key)
+       [dbo].[FK_TB_Acompanhamento_TB_Regiao] (Foreign Key)
+       [dbo].[FK_TB_Acompanhamento_TB_Regiao_Saude] (Foreign Key)
+       [dbo].[FK_TB_Regiao_Saude_TB_Estado] (Foreign Key)
+       [dbo].[FK_TB_Regiao_Saude_TB_Munincipio] (Foreign Key)
+       [dbo].[FK_TB_Regiao_Saude_TB_Regiao] (Foreign Key)
+       [dbo].[FK_TB_Rel_Casos_TB_Estado] (Foreign Key)
+       [dbo].[FK_TB_Rel_Casos_TB_Munincipio] (Foreign Key)
+       [dbo].[FK_TB_Rel_Casos_TB_Regiao] (Foreign Key)
+       [dbo].[FK_TB_Rel_Casos_TB_Regiao_Saude] (Foreign Key)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_TB_Estado_TB_Regiao] (Foreign Key)
+     Create
+       [dbo].[FK_TB_Estado_TB_Regiao] (Foreign Key)

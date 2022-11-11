@@ -1,0 +1,19 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[TB_Estado] (Table)
+       [dbo].[TB_Munincipio] (Table)
+       [dbo].[FK_TB_Estado_TB_Regiao] (Foreign Key)
+       [dbo].[FK_TB_Munincipio_TB_Estado] (Foreign Key)
+       [dbo].[FK_TB_Munincipio_TB_Regiao] (Foreign Key)
+
+** Supporting actions

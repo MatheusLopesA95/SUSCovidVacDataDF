@@ -59,7 +59,14 @@
     <Folder Include="Tabelas" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Tabelas\Painel_CovidBR.sql" />
+    <Build Include="Tabelas\TB_Regiao.sql" />
+    <Build Include="Tabelas\TB_Estado.sql" />
+    <Build Include="Tabelas\TB_Munincipio.sql" />
+    <Build Include="Tabelas\TB_Regiao_Saude.sql" />
+    <Build Include="Tabelas\TB_Casos.sql" />
+    <Build Include="Tabelas\TB_Obitos.sql" />
+    <Build Include="Tabelas\TB_Recuperados.sql" />
+    <Build Include="Tabelas\TB_Acompanhamento.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Carga_DB_Covid.refactorlog" />

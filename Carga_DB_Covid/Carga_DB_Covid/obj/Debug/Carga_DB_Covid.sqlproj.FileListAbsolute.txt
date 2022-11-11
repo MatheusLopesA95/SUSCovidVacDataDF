@@ -3,7 +3,3 @@ C:\Users\mathe\OneDrive\Área de Trabalho\GitHub\SUSCovidVacDataDF\Carga_DB_Covi
 C:\Users\mathe\OneDrive\Área de Trabalho\GitHub\SUSCovidVacDataDF\Carga_DB_Covid\Carga_DB_Covid\bin\Debug\Carga_DB_Covid.pdb
 C:\Users\mathe\OneDrive\Área de Trabalho\GitHub\SUSCovidVacDataDF\Carga_DB_Covid\Carga_DB_Covid\obj\Debug\Carga_DB_Covid.dll
 C:\Users\mathe\OneDrive\Área de Trabalho\GitHub\SUSCovidVacDataDF\Carga_DB_Covid\Carga_DB_Covid\obj\Debug\Carga_DB_Covid.pdb
-C:\Users\mathe\OneDrive\Área de Trabalho\GitHub\SUSCovidVacDataDF\Carga_DB_Covid\Carga_DB_Covid\obj\Debug\Model.xml
-C:\Users\mathe\OneDrive\Área de Trabalho\GitHub\SUSCovidVacDataDF\Carga_DB_Covid\Carga_DB_Covid\obj\Debug\refactor.xml
-C:\Users\mathe\OneDrive\Área de Trabalho\GitHub\SUSCovidVacDataDF\Carga_DB_Covid\Carga_DB_Covid\obj\Debug\postdeploy.sql
-C:\Users\mathe\OneDrive\Área de Trabalho\GitHub\SUSCovidVacDataDF\Carga_DB_Covid\Carga_DB_Covid\obj\Debug\predeploy.sql
