@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[TB_Regiao_Saude]
 (
 	[Cod_Regiao_Saude] NVARCHAR(50) NOT NULL PRIMARY KEY, 
-    [Desc_Reg_Saude] NVARCHAR(200) NOT NULL, 
+    [Desc_Reg_Saude] NVARCHAR(200) NULL, 
     [Cod_Estado] NVARCHAR(2) NOT NULL, 
     [Cod_Munincipio] NVARCHAR(50) NOT NULL, 
     [Cod_Regiao] NVARCHAR NOT NULL, 
