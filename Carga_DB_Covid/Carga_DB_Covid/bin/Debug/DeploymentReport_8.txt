@@ -1,0 +1,32 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Rel_Obitos] (Table)
+       [dbo].[Rel_Recuperados] (Table)
+       [dbo].[TB_Rel_Casos] (Table)
+       [dbo].[FK_TB_Obitos_TB_Estado] (Foreign Key)
+       [dbo].[FK_TB_Obitos_TB_Munincipio] (Foreign Key)
+       [dbo].[FK_TB_Obitos_TB_Regiao] (Foreign Key)
+       [dbo].[FK_TB_Obitos_TB_Regiao_Saude] (Foreign Key)
+       [dbo].[FK_Rel_Obitos_Dim_Tempo] (Foreign Key)
+       [dbo].[FK_TB_Recuperados_TB_Estado] (Foreign Key)
+       [dbo].[FK_TB_Recuperados_TB_Munincipio] (Foreign Key)
+       [dbo].[FK_TB_Recuperados_TB_Regiao] (Foreign Key)
+       [dbo].[FK_TB_Recuperados_TB_Regiao_Saude] (Foreign Key)
+       [dbo].[FK_Rel_Recuperados_Dim_Tempo] (Foreign Key)
+       [dbo].[FK_TB_Rel_Casos_TB_Estado] (Foreign Key)
+       [dbo].[FK_TB_Rel_Casos_TB_Munincipio] (Foreign Key)
+       [dbo].[FK_TB_Rel_Casos_TB_Regiao] (Foreign Key)
+       [dbo].[FK_TB_Rel_Casos_TB_Regiao_Saude] (Foreign Key)
+       [dbo].[FK_TB_Rel_Casos_Dim_Tempo] (Foreign Key)
+
+** Supporting actions

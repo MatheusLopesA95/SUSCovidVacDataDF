@@ -5,9 +5,10 @@
     [Cod_Regiao] NVARCHAR NULL, 
     [Cod_Regiao_Saude] NVARCHAR(50) NULL, 
     [Acompanhamento_Novos] INT NOT NULL, 
-    [Data] DATE NOT NULL, 
+    [Cod_Dia] NVARCHAR(50) NOT NULL, 
     CONSTRAINT [FK_TB_Acompanhamento_TB_Estado] FOREIGN KEY ([Cod_Estado]) REFERENCES [TB_Estado]([Cod_Estado]), 
     CONSTRAINT [FK_TB_Acompanhamento_TB_Munincipio] FOREIGN KEY ([Cod_Munincipio]) REFERENCES [TB_Munincipio]([Cod_Munincipio]), 
     CONSTRAINT [FK_TB_Acompanhamento_TB_Regiao] FOREIGN KEY ([Cod_Regiao]) REFERENCES [TB_Regiao]([Cod_Regiao]), 
-    CONSTRAINT [FK_TB_Acompanhamento_TB_Regiao_Saude] FOREIGN KEY ([Cod_Regiao_Saude]) REFERENCES [TB_Regiao_Saude]([Cod_Regiao_Saude])
+    CONSTRAINT [FK_TB_Acompanhamento_TB_Regiao_Saude] FOREIGN KEY ([Cod_Regiao_Saude]) REFERENCES [TB_Regiao_Saude]([Cod_Regiao_Saude]), 
+    CONSTRAINT [FK_TB_Acompanhamento_Dim_Tempo] FOREIGN KEY ([Cod_Dia]) REFERENCES [Dim_Tempo]([Cod_Dia])
 )

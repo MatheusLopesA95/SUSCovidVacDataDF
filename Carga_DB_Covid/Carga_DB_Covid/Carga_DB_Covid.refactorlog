@@ -84,4 +84,32 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="Cod_Regiao_Saude" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="0421a8c4-8447-44eb-9b68-e2e80fa3946e" ChangeDateTime="11/14/2022 16:44:27">
+    <Property Name="ElementName" Value="[dbo].[TB_Rel_Casos].[Data]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TB_Rel_Casos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cod_Dia" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5d93d13d-9f10-4ad2-8941-8aa974dd1a03" ChangeDateTime="11/14/2022 16:45:56">
+    <Property Name="ElementName" Value="[dbo].[Rel_Obitos].[Data]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Rel_Obitos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cod_Dia" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6bba15e5-bbd3-4032-b75e-008f2b642448" ChangeDateTime="11/14/2022 16:46:40">
+    <Property Name="ElementName" Value="[dbo].[Rel_Recuperados].[Data]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Rel_Recuperados]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cod_Dia" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="94e7ad69-db80-4297-890c-ea805e2a64ce" ChangeDateTime="11/14/2022 16:47:36">
+    <Property Name="ElementName" Value="[dbo].[TB_Acompanhamento].[Data]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TB_Acompanhamento]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cod_Dia" />
+  </Operation>
 </Operations>

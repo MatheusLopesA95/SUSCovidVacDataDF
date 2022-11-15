@@ -1,0 +1,30 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Rename
+       [dbo].[TB_Rel_Casos].[Cod_Dia] (Column)
+       [dbo].[Rel_Obitos].[Cod_Dia] (Column)
+       [dbo].[Rel_Recuperados].[Cod_Dia] (Column)
+       [dbo].[TB_Acompanhamento].[Cod_Dia] (Column)
+     Alter
+       [dbo].[Rel_Obitos] (Table)
+       [dbo].[Rel_Recuperados] (Table)
+       [dbo].[TB_Acompanhamento] (Table)
+       [dbo].[TB_Regiao_Saude] (Table)
+       [dbo].[TB_Rel_Casos] (Table)
+     Create
+       [dbo].[Dim_Tempo] (Table)
+       [dbo].[FK_Rel_Obitos_Dim_Tempo] (Foreign Key)
+       [dbo].[FK_Rel_Recuperados_Dim_Tempo] (Foreign Key)
+       [dbo].[FK_TB_Acompanhamento_Dim_Tempo] (Foreign Key)
+       [dbo].[FK_TB_Rel_Casos_Dim_Tempo] (Foreign Key)
+
+** Supporting actions
