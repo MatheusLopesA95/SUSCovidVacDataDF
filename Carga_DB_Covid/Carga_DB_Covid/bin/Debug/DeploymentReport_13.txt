@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[TB_Rel_Casos] (Table)
+       [dbo].[FK_TB_Rel_Casos_TB_Estado] (Foreign Key)
+       [dbo].[FK_TB_Rel_Casos_TB_Munincipio] (Foreign Key)
+       [dbo].[FK_TB_Rel_Casos_TB_Regiao] (Foreign Key)
+       [dbo].[FK_TB_Rel_Casos_TB_Regiao_Saude] (Foreign Key)
+       [dbo].[FK_TB_Rel_Casos_Dim_Tempo] (Foreign Key)
+
+** Supporting actions
