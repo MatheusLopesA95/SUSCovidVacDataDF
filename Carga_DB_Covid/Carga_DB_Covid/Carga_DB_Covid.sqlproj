@@ -59,14 +59,15 @@
     <Folder Include="Tabelas" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Tabelas\TB_Regiao.sql" />
-    <Build Include="Tabelas\TB_Estado.sql" />
-    <Build Include="Tabelas\TB_Munincipio.sql" />
-    <Build Include="Tabelas\TB_Casos.sql" />
-    <Build Include="Tabelas\TB_Obitos.sql" />
-    <Build Include="Tabelas\TB_Recuperados.sql" />
+    <Build Include="Tabelas\Dim_Regiao.sql" />
+    <Build Include="Tabelas\Dim_Estado.sql" />
+    <Build Include="Tabelas\Dim_Munincipio.sql" />
+    <Build Include="Tabelas\Fato_Casos.sql" />
+    <Build Include="Tabelas\Fato_Obitos.sql" />
+    <Build Include="Tabelas\Dim_Recuperados.sql" />
     <Build Include="Tabelas\Dim_Tempo_1.sql" />
-    <Build Include="Tabelas\TB_Vacina.sql" />
+    <Build Include="Tabelas\Fato_Vacina.sql" />
+    <Build Include="Tabelas\Dim_Vacina_Marca.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Carga_DB_Covid.refactorlog" />

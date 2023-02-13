@@ -112,4 +112,25 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="Cod_Dia" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="e47b586e-2b9c-4509-af80-fac92586df67" ChangeDateTime="02/13/2023 12:50:03">
+    <Property Name="ElementName" Value="[dbo].[Dim_Vacina_Marca].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Dim_Vacina_Marca]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Vac_Cod" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e7600975-0156-497a-9366-ab7e12eb6bf9" ChangeDateTime="02/13/2023 12:50:57">
+    <Property Name="ElementName" Value="[dbo].[Dim_Vacina_Marca].[Vac_Cod]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Dim_Vacina_Marca]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Vac_Marca_Cod" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="48b345fc-4d91-40c5-baaa-feb080e975b0" ChangeDateTime="02/13/2023 12:51:23">
+    <Property Name="ElementName" Value="[dbo].[Dim_Vacina_Marca].[Vac_Marca_Cod]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Dim_Vacina_Marca]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="vacina_codigo" />
+  </Operation>
 </Operations>
